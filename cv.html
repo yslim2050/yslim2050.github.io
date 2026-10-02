@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoon-Seop Lim | Academic Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+        .section-title {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 2rem;
+            font-weight: 700;
+            font-size: 1.875rem;
+            color: #0f172a;
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -0.5rem;
+            width: 3rem;
+            height: 0.25rem;
+            background-color: #1d4ed8;
+            border-radius: 9999px;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <nav class="fixed top-0 w-full bg-white/90 backdrop-blur-md shadow-sm z-50 border-b border-gray-200">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                    <a href="#" class="text-xl font-bold text-blue-900 tracking-tight">YSL</a>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#about" class="text-sm font-medium text-gray-600 hover:text-blue-700 transition-colors">About</a>
+                    <a href="#education" class="text-sm font-medium text-gray-600 hover:text-blue-700 transition-colors">Education</a>
+                    <a href="#research" class="text-sm font-medium text-gray-600 hover:text-blue-700 transition-colors">Research</a>
+                    <a href="#publications" class="text-sm font-medium text-gray-600 hover:text-blue-700 transition-colors">Publications</a>
+                    <a href="#projects" class="text-sm font-medium text-gray-600 hover:text-blue-700 transition-colors">Projects</a>
+                    <a href="#awards-teaching" class="text-sm font-medium text-gray-600 hover:text-blue-700 transition-colors">Awards & Teaching</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="about" class="pt-32 pb-20 bg-slate-900 text-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Yoon-Seop Lim</h1>
+            <p class="text-xl md:text-2xl font-light text-slate-300 mb-6">Ph.D. Candidate in Mechanical Engineering</p>
+            <p class="text-lg text-slate-400 mb-2">Korea Advanced Institute of Science and Technology (KAIST)</p>
+            <p class="text-lg text-slate-400 mb-8 hover:text-blue-400 transition-colors">
+                <a href="mailto:bu2050@kaist.ac.kr">bu2050@kaist.ac.kr</a>
+            </p>
+            <div>
+                <a href="cv_임윤섭.docx" download class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 shadow-lg hover:shadow-xl transition-all duration-300">
+                    Download CV (cv_임윤섭.docx)
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 py-12">
+        <section id="education" class="mb-20 scroll-mt-24">
+            <h2 class="section-title">Education</h2>
+            <div class="space-y-6">
+                <!-- Ph.D. -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow relative">
+                    <div class="absolute top-6 right-6 text-sm font-semibold text-blue-600 bg-blue-50 px-3 py-1 rounded-full">Mar. 2023 – Present</div>
+                    <h3 class="text-xl font-bold text-gray-900">Korea Advanced Institute of Science and Technology (KAIST)</h3>
+                    <p class="text-lg text-gray-700 font-medium mt-1">Ph.D. Candidate in Mechanical Engineering</p>
+                    <p class="text-gray-600 mt-2"><span class="font-semibold">Advisor:</span> Yong-Hwa Park</p>
+                    <p class="text-gray-600"><span class="font-semibold">GPA:</span> 4.1/4.3</p>
+                    <p class="text-gray-500 text-sm mt-2">Daejeon, Korea</p>
+                </div>
+                
+                <!-- M.S. -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow relative">
+                    <div class="absolute top-6 right-6 text-sm font-semibold text-gray-600 bg-gray-100 px-3 py-1 rounded-full">Mar. 2021 – Feb. 2023</div>
+                    <h3 class="text-xl font-bold text-gray-900">Korea Advanced Institute of Science and Technology (KAIST)</h3>
+                    <p class="text-lg text-gray-700 font-medium mt-1">M.S. in Mechanical Engineering</p>
+                    <p class="text-gray-600 mt-2"><span class="font-semibold">Advisor:</span> Yong-Hwa Park</p>
+                    <p class="text-gray-600"><span class="font-semibold">Thesis:</span> A Long Distance 3D Face Recognition System Using a Novel High-Resolution Time-of-Flight Sensor</p>
+                    <p class="text-gray-600"><span class="font-semibold">GPA:</span> 4.15/4.3</p>
+                </div>
+
+                <!-- B.S. -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow relative">
+                    <div class="absolute top-6 right-6 text-sm font-semibold text-gray-600 bg-gray-100 px-3 py-1 rounded-full">Mar. 2016 – Feb. 2021</div>
+                    <h3 class="text-xl font-bold text-gray-900">Korea Advanced Institute of Science and Technology (KAIST)</h3>
+                    <p class="text-lg text-gray-700 font-medium mt-1">B.S. in Mechanical Engineering and Electrical Engineering (Double major)</p>
+                    <p class="text-gray-600 mt-2 font-semibold text-blue-700">Magna Cum Laude</p>
+                    <p class="text-gray-600"><span class="font-semibold">GPA:</span> 3.87/4.3 | <span class="font-semibold">Major GPA:</span> 4.00/4.3</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20">
+            <section id="research" class="scroll-mt-24">
+                <h2 class="section-title">Research Interests</h2>
+                <ul class="space-y-3 mt-4">
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-500 mr-2 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <span class="text-gray-700">3D sensor and Recognitions for Human-Machine Interactions</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-500 mr-2 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <span class="text-gray-700">Vision-based Physiological monitoring</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-500 mr-2 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <span class="text-gray-700">Time-of-Flight (ToF) sensor</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-500 mr-2 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <span class="text-gray-700">Face recognition</span>
+                    </li>
+                </ul>
+            </section>
+            
+            <section id="skills" class="scroll-mt-24">
+                <h2 class="section-title">Additional Skills</h2>
+                <div class="flex flex-wrap gap-3 mt-4">
+                    <span class="px-4 py-2 bg-slate-100 text-slate-700 font-medium rounded-lg border border-slate-200 hover:bg-slate-200 hover:shadow-sm transition-all">Python</span>
+                    <span class="px-4 py-2 bg-slate-100 text-slate-700 font-medium rounded-lg border border-slate-200 hover:bg-slate-200 hover:shadow-sm transition-all">PyTorch</span>
+                    <span class="px-4 py-2 bg-slate-100 text-slate-700 font-medium rounded-lg border border-slate-200 hover:bg-slate-200 hover:shadow-sm transition-all">MATLAB</span>
+                    <span class="px-4 py-2 bg-slate-100 text-slate-700 font-medium rounded-lg border border-slate-200 hover:bg-slate-200 hover:shadow-sm transition-all">LabView</span>
+                    <span class="px-4 py-2 bg-slate-100 text-slate-700 font-medium rounded-lg border border-slate-200 hover:bg-slate-200 hover:shadow-sm transition-all">SolidWorks</span>
+                </div>
+            </section>
+        </div>
+
+        <section id="publications" class="mb-20 scroll-mt-24">
+            <h2 class="section-title">Publications</h2>
+            
+            <div class="mb-10">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6 flex items-center border-b pb-2">
+                    <svg class="w-6 h-6 mr-2 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                    International Journal
+                </h3>
+                <ul class="space-y-5">
+                    <li class="bg-white p-5 rounded-lg border-l-4 border-blue-500 shadow-sm hover:bg-slate-50 transition-colors">
+                        <p class="text-gray-800 leading-relaxed"><span class="font-bold">Yoon-Seop Lim</span>, Seok-Jun An, Se-Jun Park, and Yong-Hwa Park, <span class="italic text-gray-900">“Depth-Conditioned Remote Photoplethysmography for Robust Cardiac Pulse Estimation.”</span> <span class="font-semibold text-blue-700">(Under review)</span></p>
+                    </li>
+                    <li class="bg-white p-5 rounded-lg border-l-4 border-blue-500 shadow-sm hover:bg-slate-50 transition-colors">
+                        <p class="text-gray-800 leading-relaxed"><span class="font-bold">Yoon-Seop Lim</span>, Sung-Hyun Lee, Seok-Jun An, and Yong-Hwa Park, <span class="italic text-gray-900">“Long-Distance 3D Face Recognition Using a Region-Scanning Time-of-Flight Sensor and an Albedo-Guided 3D-Infrared Fusion Network.”</span> <span class="font-semibold text-blue-700">(Under review)</span></p>
+                    </li>
+                    <li class="bg-white p-5 rounded-lg border-l-4 border-gray-300 shadow-sm hover:bg-slate-50 transition-colors">
+                        <p class="text-gray-800 leading-relaxed">Sungjin Cheong, Wonho Jung, <span class="font-bold">Yoon-Seop Lim</span>, and Yong-Hwa Park. <span class="italic text-gray-900">"Thermal-Infrared Remote-Target Detection System for Maritime Rescue Using 3D Game-Based Data Augmentation With GAN."</span> IEEE Transactions on Geoscience and Remote Sensing, <span class="font-semibold text-gray-600">2024</span></p>
+                    </li>
+                    <li class="bg-white p-5 rounded-lg border-l-4 border-gray-300 shadow-sm hover:bg-slate-50 transition-colors">
+                        <p class="text-gray-800 leading-relaxed">Sung-Hyun Lee, <span class="font-bold">Yoon-Seop Lim</span>, Wook-Hyeon Kwon, and Yong-Hwa Park. <span class="italic text-gray-900">"Automatic internal stray light calibration of AMCW coaxial scanning LiDAR using black and white image patterns."</span> IEEE Transactions on Instrumentation and Measurement, <span class="font-semibold text-gray-600">2023</span></p>
+                    </li>
+                    <li class="bg-white p-5 rounded-lg border-l-4 border-gray-300 shadow-sm hover:bg-slate-50 transition-colors">
+                        <p class="text-gray-800 leading-relaxed">Sung-Hyun Lee, <span class="font-bold">Yoon-Seop Lim</span>, Wook-Hyeon Kwon, and Yong-Hwa Park. <span class="italic text-gray-900">"Multipath Interference Suppression of Amplitude-Modulated Continuous Wave Coaxial-Scanning LiDAR Using Model-Based Synthetic Data Learning."</span> IEEE Sensors Journal, <span class="font-semibold text-gray-600">2023</span></p>
+                    </li>
+                    <li class="bg-white p-5 rounded-lg border-l-4 border-gray-300 shadow-sm hover:bg-slate-50 transition-colors">
+                        <p class="text-gray-800 leading-relaxed">Sung-Hyun Lee, Wook-Hyeon Kwon, <span class="font-bold">Yoon-Seop Lim</span>, and Yong-Hwa Park. <span class="italic text-gray-900">"Highly precise AMCW time-of-flight scanning sensor based on parallel-phase demodulation."</span> Measurement, <span class="font-semibold text-gray-600">2022</span></p>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-2xl font-bold text-gray-800 mb-6 flex items-center border-b pb-2">
+                    <svg class="w-6 h-6 mr-2 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9.5a2.5 2.5 0 00-2.5-2.5H15"></path></svg>
+                    International Conference
+                </h3>
+                <ul class="space-y-5">
+                    <li class="bg-white p-5 rounded-lg border-l-4 border-blue-500 shadow-sm hover:bg-slate-50 transition-colors relative">
+                        <span class="absolute top-4 right-4 bg-yellow-100 text-yellow-800 text-xs font-bold px-2 py-1 rounded">Invited Paper</span>
+                        <p class="text-gray-800 leading-relaxed pr-24"><span class="font-bold">Yoon-Seop Lim</span>, Seok_jun An, Junhong Im, Jin Kim, Yong-Hwa Park, <span class="italic text-gray-900">“Remote heart rate estimation system using LiDAR with region-scanning method”</span>, SPIE Photonics West, <span class="font-semibold text-gray-600">2026</span></p>
+                    </li>
+                    <li class="bg-white p-5 rounded-lg border-l-4 border-gray-300 shadow-sm hover:bg-slate-50 transition-colors">
+                        <p class="text-gray-800 leading-relaxed"><span class="font-bold">Yoon-Seop Lim</span>, Seok-Jun An, Sung-Hyun Lee, Yong-Hwa Park, <span class="italic text-gray-900">“A long-distance 6D pose estimation system for space object recognition using region-scanning LiDAR”</span>, SPIE Photonics West, <span class="font-semibold text-gray-600">2024</span></p>
+                    </li>
+                    <li class="bg-white p-5 rounded-lg border-l-4 border-blue-500 shadow-sm hover:bg-slate-50 transition-colors relative">
+                        <span class="absolute top-4 right-4 bg-yellow-100 text-yellow-800 text-xs font-bold px-2 py-1 rounded">Invited Paper</span>
+                        <p class="text-gray-800 leading-relaxed pr-24"><span class="font-bold">Yoon-Seop Lim</span>, Sunghyun Lee, Sung-Jin Cheong, Yong-Hwa Park, <span class="italic text-gray-900">“A long-distance 3D face recognition architecture utilizing MEMS-based region-scanning LiDAR”</span>, SPIE Photonics West, <span class="font-semibold text-gray-600">2023</span></p>
+                    </li>
+                    <li class="bg-white p-5 rounded-lg border-l-4 border-gray-300 shadow-sm hover:bg-slate-50 transition-colors">
+                        <p class="text-gray-800 leading-relaxed"><span class="font-bold">Yoon-Seop Lim</span>, Sunghyun Lee, Wookhyeon Kwon, Yong-Hwa Park, <span class="italic text-gray-900">"Depth Image Super Resolution Method for Time-of-Flight(ToF) Camera based on Machine Learning"</span>, SPIE Photonics West, <span class="font-semibold text-gray-600">2022</span></p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="mb-20 scroll-mt-24">
+            <h2 class="section-title">Projects</h2>
+            <div class="space-y-6">
+                <!-- Project 1 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
+                    <div class="bg-slate-50 px-6 py-4 border-b border-gray-200 sm:flex justify-between items-center">
+                        <h3 class="text-lg font-bold text-gray-900 sm:w-3/4">Development of a real-time fault diagnosis device based on motion magnification</h3>
+                        <span class="text-sm font-semibold text-blue-600 mt-2 sm:mt-0 block">Jan. 2025 – Present</span>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500 font-semibold mb-3 uppercase tracking-wide">Project Member | Funded by POSCO</p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>Optimize motion magnification algorithms for real-time industrial fault diagnosis.</li>
+                            <li>Develop a mobile-based system for visualizing mechanical anomalies via video analysis.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
+                    <div class="bg-slate-50 px-6 py-4 border-b border-gray-200 sm:flex justify-between items-center">
+                        <h3 class="text-lg font-bold text-gray-900 sm:w-3/4">Development of Non-invasive Cardiovascular Health Monitoring Technology Using Virtual Patient System and Physics-informed AI</h3>
+                        <span class="text-sm font-semibold text-blue-600 mt-2 sm:mt-0 block">May. 2024 – Present</span>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500 font-semibold mb-3 uppercase tracking-wide">Project Member | Funded by National Research Foundation (NRF)</p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>Develop algorithms and data acquisition protocols for remote heart rate monitoring.</li>
+                            <li>Integrate virtual patient systems with physics-informed AI for cardiovascular health analysis.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow ring-1 ring-blue-500/20">
+                    <div class="bg-blue-50/50 px-6 py-4 border-b border-gray-200 sm:flex justify-between items-center">
+                        <h3 class="text-lg font-bold text-blue-900 sm:w-3/4">XR-Based Warship Maneuver Training System Development</h3>
+                        <span class="text-sm font-semibold text-blue-600 mt-2 sm:mt-0 block">Nov. 2023 – Present</span>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-sm text-blue-600 font-bold mb-3 uppercase tracking-wide">Project Leader | Funded by Agency for Defense Development (ADD)</p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>Develop a real-time, multi-view markerless 3D human pose estimation system for robust training environments.</li>
+                            <li>Implement a monocular localization algorithm for physical objects within XR (Extended Reality).</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow ring-1 ring-blue-500/20">
+                    <div class="bg-blue-50/50 px-6 py-4 border-b border-gray-200 sm:flex justify-between items-center">
+                        <h3 class="text-lg font-bold text-blue-900 sm:w-3/4">Development of Proximity Sensor and Docking Systems for Satellite Orbital Maneuvering</h3>
+                        <span class="text-sm font-semibold text-gray-500 mt-2 sm:mt-0 block">Mar. 2023 – Dec. 2023</span>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-sm text-blue-600 font-bold mb-3 uppercase tracking-wide">Project Leader | Funded by Agency for Defense Development (ADD)</p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>Constructed a LiDAR-based dataset for spacecrafts and space objects in space simulation environments.</li>
+                            <li>Developed a 6D pose estimation algorithm for non-cooperative object with 3D data.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
+                    <div class="bg-slate-50 px-6 py-4 border-b border-gray-200 sm:flex justify-between items-center">
+                        <h3 class="text-lg font-bold text-gray-900 sm:w-3/4">Fault Diagnosis of Journal Bearing for Compressor Using Current Signal Imaging Method</h3>
+                        <span class="text-sm font-semibold text-gray-500 mt-2 sm:mt-0 block">Nov. 2022 – Aug. 2023</span>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500 font-semibold mb-3 uppercase tracking-wide">Project Member | Funded by LG Electronics</p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>Constructed vibration-current dataset for bearing fault diagnosis.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
+                    <div class="bg-slate-50 px-6 py-4 border-b border-gray-200 sm:flex justify-between items-center">
+                        <h3 class="text-lg font-bold text-gray-900 sm:w-3/4">Development of Subminiature 3D Sensor Platform</h3>
+                        <span class="text-sm font-semibold text-gray-500 mt-2 sm:mt-0 block">Mar. 2021 – Aug. 2022</span>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500 font-semibold mb-3 uppercase tracking-wide">Project Member | Funded by Intekplus</p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>Developed an iToF AMCW ToF LiDAR platform including optical architecture design and signal processing.</li>
+                            <li>Optimized the sensor platform for 3D-based object and human recognition tasks for real-world applications.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
+            <section id="awards-teaching" class="scroll-mt-24">
+                <h2 class="section-title">Awards and Honors</h2>
+                <div class="space-y-4 mt-4">
+                    <div class="flex justify-between items-center border-b border-gray-200 pb-3 hover:bg-slate-50 transition-colors p-2 rounded">
+                        <span class="font-semibold text-gray-800">Outstanding Counseling Assistant</span>
+                        <span class="text-blue-600 font-medium text-sm bg-blue-50 px-3 py-1 rounded-full">Fall 2022</span>
+                    </div>
+                    <div class="flex justify-between items-center border-b border-gray-200 pb-3 hover:bg-slate-50 transition-colors p-2 rounded">
+                        <span class="font-semibold text-gray-800">ME Outstanding Achievement Award</span>
+                        <span class="text-gray-600 text-sm">Fall 2018</span>
+                    </div>
+                    <div class="flex justify-between items-center border-b border-gray-200 pb-3 hover:bg-slate-50 transition-colors p-2 rounded">
+                        <span class="font-semibold text-gray-800">ME Outstanding Achievement Award</span>
+                        <span class="text-gray-600 text-sm">Fall 2017</span>
+                    </div>
+                    <div class="flex justify-between items-center pb-3 hover:bg-slate-50 transition-colors p-2 rounded">
+                        <span class="font-semibold text-gray-800">ME Outstanding Achievement Award</span>
+                        <span class="text-gray-600 text-sm">Spring 2017</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="scroll-mt-24">
+                <h2 class="section-title">Teaching Experience</h2>
+                <div class="space-y-4 mt-4">
+                    <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+                        <h4 class="font-bold text-gray-900 mb-1">Teaching Assistant</h4>
+                        <p class="text-gray-700">Artificial Neural Network: Theory and Applications (ME564)</p>
+                        <p class="text-sm font-semibold text-blue-600 mt-2">Fall 2024</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+                        <h4 class="font-bold text-gray-900 mb-1">Teaching Assistant</h4>
+                        <p class="text-gray-700">Artificial Intelligence for Mechanical Engineering Problems (ME491(B))</p>
+                        <p class="text-sm font-semibold text-blue-600 mt-2">Spring 2024</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+                        <h4 class="font-bold text-gray-900 mb-1">Teaching Assistant</h4>
+                        <p class="text-gray-700">Random Data: Analysis and Processing (ME591)</p>
+                        <p class="text-sm font-semibold text-blue-600 mt-2">Fall 2022, '23, '25, '26</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+                        <h4 class="font-bold text-gray-900 mb-1">Teaching Assistant</h4>
+                        <p class="text-gray-700">Mechanical Vibrations (ME351)</p>
+                        <p class="text-sm font-semibold text-blue-600 mt-2">Spring 2023</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="bg-slate-900 text-slate-400 py-8 text-center border-t border-slate-800">
+        <div class="max-w-4xl mx-auto px-6">
+            <p>&copy; 2026 Yoon-Seop Lim. All rights reserved.</p>
+            <p class="text-sm mt-2">Korea Advanced Institute of Science and Technology (KAIST)</p>
+        </div>
+    </footer>
+
+</body>
+</html>
